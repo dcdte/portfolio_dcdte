@@ -1,6 +1,11 @@
-function App() {
+import { Header } from "./components";
 
-  return <div className="">Hola</div>;
+function App() {
+  return (
+    <div className="dark:bg-black">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
